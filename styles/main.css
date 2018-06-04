@@ -8724,6 +8724,7 @@ transform: translate(28px, -15px);
   background-size: cover;
   position: absolute;
   right: 0;
+  padding: 12% 0;
 }
 
 .mountain__break{
