@@ -8090,6 +8090,35 @@ transform: translate(28px, -15px);
   /*-webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%*/
 }
+
+@keyframes rotation {
+  0%{
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  } 100% {
+    -webkit-transform: translate(-39px, -18px);
+transform: translate(-39px, -18px);
+  }
+}
+
+.coin_rotate{
+  animation: rotation 3s infinite ease;
+}
+
+@keyframes upper-rotation {
+  0%{
+    -webkit-transform: translate(-18px, 15px);
+    transform: translate(-18px, 15px);
+  } 100% {
+    -webkit-transform: translate(37px, -21px);
+    transform: translate(37px, -21px);
+  }
+
+}
+#coin-forward {
+  animation: upper-rotation 3s infinite ease;
+}
+
 .gold-coin {
     -webkit-animation: goldCoin 1s infinite linear;
     animation: goldCoin 1s infinite linear
