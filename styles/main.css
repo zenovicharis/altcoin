@@ -3111,19 +3111,19 @@ nav.sticky .hamburger {
 
 @media (max-width: 1700px) {
     .projects {
-        padding-bottom: 521px
+      padding-bottom: 10em;
     }
 }
 
 @media (min-width: 1701px) {
     .projects {
-        padding-bottom: 578.888888889px
+        padding-bottom: 10em;
     }
 }
 
 @media (max-width: 1081px) {
     .projects {
-        padding-left: 50.3842869342px
+        padding-bottom: 3em;
     }
 }
 
@@ -3147,13 +3147,13 @@ nav.sticky .hamburger {
 
 @media (max-width: 1081px) {
     .projects {
-        padding-bottom: 555.081127242px
+      padding-bottom: 12em;
     }
 }
 
 @media (max-width: 640px) {
     .projects {
-        padding-bottom: 325px
+      padding-bottom: 12em;
     }
 }
 
@@ -8093,30 +8093,33 @@ transform: translate(28px, -15px);
 
 @keyframes rotation {
   0%{
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  } 100% {
     -webkit-transform: translate(-39px, -18px);
-transform: translate(-39px, -18px);
+    transform: translate(-39px, -18px);
+  } 100% {
+    -webkit-transform: translate(18px, 12px);
+    transform: translate(18px, 12px);
+
   }
 }
 
 .coin_rotate{
-  animation: rotation 3s infinite ease;
+  -webkit-animation: rotation 2.5s infinite linear;
+  animation: rotation 2.5s infinite linear;
 }
 
 @keyframes upper-rotation {
   0%{
-    -webkit-transform: translate(-18px, 15px);
-    transform: translate(-18px, 15px);
-  } 100% {
     -webkit-transform: translate(37px, -21px);
     transform: translate(37px, -21px);
+
+  } 100% {
+    -webkit-transform: translate(-18px, 15px);
+    transform: translate(-18px, 15px);
   }
 
 }
 #coin-forward {
-  animation: upper-rotation 3s infinite ease;
+  animation: upper-rotation 2.5s infinite linear;
 }
 
 .gold-coin {
