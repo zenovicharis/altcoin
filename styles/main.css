@@ -8096,8 +8096,8 @@ transform: translate(28px, -15px);
     -webkit-transform: translate(-39px, -18px);
     transform: translate(-39px, -18px);
   } 100% {
-    -webkit-transform: translate(18px, 12px);
-    transform: translate(18px, 12px);
+    -webkit-transform: translate(55px, 37px);
+    transform: translate(55px, 37px);
 
   }
 }
@@ -8115,14 +8115,15 @@ transform: translate(28px, -15px);
     transform: translate(22px, -14px);
 
   } 100% {
-    -webkit-transform: translate(-18px, 15px);
-    transform: translate(-18px, 15px);
+    -webkit-transform: translate(-50px, 24px);
+    transform: translate(-50px, 24px);
   }
 
 }
 #coin-forward {
   animation: upper-rotation 2.5s infinite linear;
   transform: translate(22px, -14px);
+  animation-fill-mode: forwards;
 }
 
 .gold-coin {
@@ -8764,4 +8765,8 @@ transform: translate(28px, -15px);
 
 .mountain__break{
     padding-bottom: 20%;
+}
+
+.text-center{
+  text-align:center;
 }
