@@ -3147,7 +3147,7 @@ nav.sticky .hamburger {
 
 @media (max-width: 1081px) {
     .projects {
-      padding-bottom: 12em;
+      padding-bottom: 20em;
     }
 }
 
@@ -8105,12 +8105,14 @@ transform: translate(28px, -15px);
 .coin_rotate{
   -webkit-animation: rotation 2.5s infinite linear;
   animation: rotation 2.5s infinite linear;
+  -webkit-transform: translate(-39px, -18px);
+  transform: translate(-39px, -18px);
 }
 
 @keyframes upper-rotation {
   0%{
-    -webkit-transform: translate(37px, -21px);
-    transform: translate(37px, -21px);
+    webkit-transform: translate(22px, -14px);
+    transform: translate(22px, -14px);
 
   } 100% {
     -webkit-transform: translate(-18px, 15px);
@@ -8120,6 +8122,7 @@ transform: translate(28px, -15px);
 }
 #coin-forward {
   animation: upper-rotation 2.5s infinite linear;
+  transform: translate(22px, -14px);
 }
 
 .gold-coin {
